@@ -3,12 +3,12 @@ import FadeIn from '../components/FadeIn'
 
 const partners = [
   { name: 'Next.js', logo: 'Next.js' },
+  { name: 'React', logo: 'React' },
   { name: 'Salla', logo: 'Salla' },
   { name: 'Figma', logo: 'Figma' },
-  { name: 'Zid', logo: 'Zid' },
-  { name: 'React', logo: 'React' },
-  { name: 'Shopify', logo: 'Shopify' },
   { name: 'WordPress', logo: 'WordPress' },
+  { name: 'Zid', logo: 'Zid' },
+  { name: 'Shopify', logo: 'Shopify' },
 ]
 
 export default function PartnersSection() {
@@ -28,7 +28,7 @@ export default function PartnersSection() {
               animate={{ x: ['0%', '-50%'] }}
               transition={{
                 repeat: Infinity,
-                duration: 40,
+                duration: 5,
                 ease: 'linear',
               }}
             >
